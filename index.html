@@ -75,10 +75,20 @@ a.btn.main .ic{background:#06152218}a.btn.main small{color:#3b3420}a.btn.main .a
 a.btn.call{background:linear-gradient(135deg,#0a7fe0,var(--royal));border-color:transparent}
 a.btn.call .ic{background:#ffffff22}a.btn.call small{color:#d6ecff}a.btn.call .ar{color:#fff}
 a.btn.web{border-color:#0494f988}
-.byd{margin-top:20px;border:1px solid #d5b76855;border-radius:18px;padding:18px;background:linear-gradient(145deg,#102d43,#081d2e)}
-.byd .k{font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:800}
-.byd h3{font-size:21px;font-weight:800;margin-top:6px}
-.byd p{font-size:13.5px;color:var(--mist);margin-top:6px;line-height:1.55}
+.byd{margin:22px 0 6px;border-radius:20px;overflow:hidden;position:relative;border:1.5px solid #ebc77266;
+ background:radial-gradient(90% 60% at 50% 62%,#2f6fb8 0%,#123e6b 38%,#081d2e 75%);box-shadow:0 20px 60px -25px #0494f9aa}
+.byd .in{padding:20px 18px 18px;position:relative}
+.byd .k{font-size:12px;letter-spacing:3px;color:var(--gold);font-weight:800}
+.byd h3{padding-right:64px;font-size:30px;font-weight:900;line-height:1.05;margin-top:8px}
+.byd h3 em{font-style:normal;background:linear-gradient(180deg,var(--shine),var(--gold2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.byd .car{display:block;width:108%;margin:8px -4% 0;filter:drop-shadow(0 22px 18px #000c)}
+.byd .rows{display:grid;gap:8px;margin-top:6px}
+.byd .row{display:flex;gap:12px;align-items:center;background:#06152299;border:1px solid #ebc77233;border-radius:14px;padding:11px 12px;font-size:14px;line-height:1.35}
+.byd .row b{color:var(--gold)}
+.byd .row .n{flex:0 0 auto;font-size:20px}
+.byd .gift{position:absolute;right:12px;top:14px;width:56px;transform:rotate(8deg);filter:drop-shadow(0 6px 10px #0008)}
+.byd a.cta{display:block;text-align:center;margin-top:14px;background:linear-gradient(135deg,var(--shine),var(--gold) 45%,var(--gold2));color:var(--deep);font-weight:900;font-size:16px;border-radius:14px;padding:15px;text-decoration:none}
+.byd .note{font-size:10.5px;color:#7f97a8;text-align:center;margin-top:8px}
 .soc{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
 .soc a{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;color:#fff;font-size:13px;font-weight:700;background:var(--card);border:1px solid var(--edge);border-radius:14px;padding:14px 6px}
 .foot{text-align:center;margin-top:26px;font-size:12px;color:#7f97a8}.foot b{color:var(--gold)}
@@ -121,6 +131,22 @@ a.btn.web{border-color:#0494f988}
     <a class="cta" href="https://t.me/GoldWaterAndijonBot?start=site_aksiya" data-t="cta">Акция нархида буюртма бериш →</a>
   </section>
 
+  <section class="byd">
+    <div class="in">
+      <img class="gift" src="img/gift.png" alt="">
+      <div class="k" data-t="bk">🚗 BYD АКЦИЯСИ</div>
+      <h3 data-t="bh" data-html>Аппарат олинг —<br><em>BYD Chazor</em> ютинг!</h3>
+      <img class="car" src="img/byd.png" alt="BYD Chazor">
+      <div class="rows">
+        <div class="row"><span class="n">🎟</span><span data-t="br1" data-html><b>1 аппарат = 1 иштирок.</b> 3 аппарат — 3 иштирок, 5 аппарат — 5 иштирок</span></div>
+        <div class="row"><span class="n">🚗</span><span data-t="br2" data-html><b>300 та аппарат</b> сотилгач, харидорлар орасида BYD автомобили ўйналади</span></div>
+        <div class="row"><span class="n">🎁</span><span data-t="br3" data-html><b>Ҳар 100 харидордан</b> бирига — аппарат совға</span></div>
+      </div>
+      <a class="cta" href="https://t.me/GoldWaterAndijonBot?start=site_byd" data-t="bcta">BYD акцияси шартлари →</a>
+      <div class="note" data-t="bnote">Расм тахминий</div>
+    </div>
+  </section>
+
   <h2 data-t="vh">Аппаратни танланг</h2>
   <div class="vars">
     <div class="var"><img src="img/v1.jpg" alt="1-вариант" loading="lazy"><div class="b"><div class="t" data-t="v1">1-вариант</div>
@@ -138,11 +164,6 @@ a.btn.web{border-color:#0494f988}
     <a class="btn" href="https://t.me/GoldWaterAndijonBot?start=site_service"><span class="ic">🛠</span><span class="tx"><b data-t="srv">Сервис мурожаати</b><small data-t="srvs">Мурожаат рақами — бот орқали</small></span><span class="ar">›</span></a>
   </nav>
 
-  <section class="byd">
-    <div class="k" data-t="bk">🚗 BYD АКЦИЯСИ</div>
-    <h3 data-t="bh">1 аппарат = 1 иштирок</h3>
-    <p data-t="bp">300 та аппарат сотилгач, харидорлар орасида BYD автомобили ўйналади. Ҳар 100 харидордан биттасига — аппарат совға.</p>
-  </section>
 
   <h2 data-t="fh">Бизни кузатинг</h2>
   <div class="soc">
@@ -162,15 +183,13 @@ var T={
   d:"kun",h:"soat",m:"daqiqa",s:"soniya",gifts:"🚗 + BYD avtomobili o'yinida ishtirok<br>🎁 + har 100 xaridordan biriga apparat sovg'a",cta:"Aksiya narxida buyurtma berish →",
   vh:"Apparatni tanlang",v1:"1-variant",v2:"2-variant",pick:"Shu apparatni tanlash →",hint:"← varaqlang →",bot:"Narxi va maslahat",bots:"Telegram bot — 5 savol, mos apparat",
   calls:"Qo'ng'iroq qiling — maslahat bepul",web:"Rasmiy sayt — goldwater.uz",webs:"Apparatlar, o'rnatilgan joylar, savollar",biz:"Tayyor biznes",bizs:"Apparat sotib oling — daromad manbai",
-  srv:"Servis murojaati",srvs:"Murojaat raqami — bot orqali",bk:"🚗 BYD AKSIYASI",bh:"1 apparat = 1 ishtirok",
-  bp:"300 ta apparat sotilgach, xaridorlar orasida BYD avtomobili o'ynaladi. Har 100 xaridordan bittasiga — apparat sovg'a.",fh:"Bizni kuzating",foot:"Toza suv — sog'lom hayot"},
+  srv:"Servis murojaati",srvs:"Murojaat raqami — bot orqali",bk:"🚗 BYD AKSIYASI",bh:"Apparat oling —<br><em>BYD Chazor</em> yuting!",br1:"<b>1 apparat = 1 ishtirok.</b> 3 apparat — 3 ishtirok, 5 apparat — 5 ishtirok",br2:"<b>300 ta apparat</b> sotilgach, xaridorlar orasida BYD avtomobili o'ynaladi",br3:"<b>Har 100 xaridordan</b> biriga — apparat sovg'a",bcta:"BYD aksiyasi shartlari →",bnote:"Rasm taxminiy",fh:"Bizni kuzating",foot:"Toza suv — sog'lom hayot"},
  ru:{city:"АНДИЖАН",slogan:"ЧИСТАЯ ВОДА — <b>ЗДОРОВАЯ ЖИЗНЬ!</b>",b1:"💧 10 ступеней очистки",b2:"🛡 Гарантия 6 мес.",b3:"🔧 Установка и сервис",
   pk:"🔥 АКЦИЯ НОЯБРЯ",save:"СКИДКА 400$",why:"Сэкономьте 400$ — аппарат окупится быстрее.",tend:"⏳ До конца акции:",tstart:"⏳ До начала акции:",
   d:"дней",h:"часов",m:"минут",s:"секунд",gifts:"🚗 + участие в розыгрыше BYD<br>🎁 + каждому сотому покупателю — аппарат в подарок",cta:"Заказать по акционной цене →",
   vh:"Выберите аппарат",v1:"Вариант 1",v2:"Вариант 2",pick:"Выбрать этот аппарат →",hint:"← листайте →",bot:"Цена и консультация",bots:"Telegram-бот — 5 вопросов, подходящий аппарат",
   calls:"Позвоните — консультация бесплатно",web:"Официальный сайт — goldwater.uz",webs:"Аппараты, адреса установок, вопросы",biz:"Готовый бизнес",bizs:"Купите аппарат — источник дохода",
-  srv:"Сервисное обращение",srvs:"Номер обращения — через бота",bk:"🚗 АКЦИЯ BYD",bh:"1 аппарат = 1 участие",
-  bp:"После продажи 300 аппаратов среди покупателей разыгрывается автомобиль BYD. Каждому сотому покупателю — аппарат в подарок.",fh:"Мы в соцсетях",foot:"Чистая вода — здоровая жизнь"}
+  srv:"Сервисное обращение",srvs:"Номер обращения — через бота",bk:"🚗 АКЦИЯ BYD",bh:"Купите аппарат —<br>выиграйте <em>BYD Chazor</em>!",br1:"<b>1 аппарат = 1 участие.</b> 3 аппарата — 3 участия, 5 — 5 участий",br2:"После продажи <b>300 аппаратов</b> среди покупателей разыгрывается BYD",br3:"<b>Каждому сотому</b> покупателю — аппарат в подарок",bcta:"Условия акции BYD →",bnote:"Изображение примерное",fh:"Мы в соцсетях",foot:"Чистая вода — здоровая жизнь"}
 };
 var L='cy', els=[].slice.call(document.querySelectorAll('[data-t]'));
 els.forEach(function(e){e.dataset.cy=e.dataset.html!==undefined?e.innerHTML:e.textContent});
